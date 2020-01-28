@@ -151,28 +151,7 @@ abouttext = '\nUshbu bot @uzb_telegraph va @TGraphUz guruhlarida foydalanuvchila
             '\nBOT TUZUVCHISI -  @NurikNazarov11'
 ro_text = '[{0}](t.me/{1}) siz qoidani buzganingiz uchun {2}ga read-only rejimiga tushirildingiz!'
 
-odamgarchilik = '''*Natija:*
-`Nurik Nazarovdan @uzb_telegraph guruhi uchun 'The Zen' maslahatlar to'plami
-(Tim Peters'ning 'The Zen of Python' qoidalar to'plamidan ilhomlanib yozilgan)
 
-- O'zingiz haqingizdagi qisqa tanishtiruv 'salom' dan yaxshi.
-- Oldin berilgan javobni ko'rsatish savolga qayta javob yozishdan yaxshi.
-- Bitta uzun xabar bo'laklab jo'natilgan xabarlardan yaxshi.
-- Xabarni tuzatish uchun tahrirlab qo'yish yana boshqa bir xabar jo'natishdan yaxshiroq.
-- Mavzu haqida gaplashish undan chetlashishdan yaxshi.
-- Lekin yaxshi mavzuda gaplashish bu vaqt ajratishga arziydigan hol.
-- Faqat u nakrutka botga link berish bilan boshlanmagan bo'lsa.
-- Xushmuomalalik ahamiyatga ega.
-- Kayfiyatning yomonligi qoidalarni buzishga arzirli sabab bo'lolmaydi.
-- So'rash uchun so'ramang, shunchaki savolning o'zini yozing.
-- Matnli xabar ovozlisidan yaxshi.
-- Faqat agar bu ovozli konferensiya bo'lmasa.
-- Botlar, soat qo'yish, spamdan chiqish haqida alohida guruhlarda gaplashish ularni shu guruhda muhokama qilishdan yaxshiroq.
-- Savolni avval Googlega yozish uni o'sha zahoti guruhga jo'natishdan yaxshi.
-- Qoidalarga amal qilish adminlarning (ayniqsa @NurikNazarov11) nazariga tushishdan yaxshiroq.
-- Uxlashdan oldin tishni yuvib yotish sog'liqqa foydali.`
-
-@{0} uchun jo'natildi!'''
 
 newtext = '''[{0}](tg://user?id={1}) *safimizga hush kelibsiz!*
 
