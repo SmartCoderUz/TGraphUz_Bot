@@ -297,20 +297,7 @@ Sabab: *{2}* | ▫️▫️▫️▫️▪️⏰*1(soat)*'''
         msg
         sleep(60)
         bot.delete_message(tg.chat.id, msg.message_id)
-    elif 'odamgarchilik' in tg.text:
-        try:
-            for i in message_list:
-                bot.delete_message(tg.chat.id, message_id=i)
-                message_list.clear()
-        except (IndexError):
-            return
-        bot.send_chat_action(tg.chat.id, action='typing')
-        sleep(random() * 2 + 3)
-        user = tg.reply_to_message.from_user.username
-        msg = bot.reply_to(tg, odamgarchilik.format(user),
-                           parse_mode='Markdown')
-        msg
-        message_list.append(msg.message_id)
+    
     elif 'SPAM' in tg.text:
         bot.reply_to(message=tg.reply_to_message,
                      text='Spam nima? Undan qanday saqlanish mumkin? [Batafsil...]('
